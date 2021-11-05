@@ -1,0 +1,140 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+.sts4-cache/
+
+# hibernate search
+indexes/
+# node setup
+node-setup/
+
+# Maven
+log/
+target/
+
+
+# Gradle
+.gradle/
+build/
+out/
+
+
+# QueryDSL
+backend/src/querydsl
+
+
+# angular-cli
+dist/
+src/main/resources/static/
+node_modules/
+*/node_modules/
+npm-debug.log*
+yarn-error.log*
+static/
+
+#idea
+*.iml
+.idea/
+
+#Origin File
+*.orig
+
+# vscode
+.vscode
+.history/
+
+# Visual Studio
+.vs/
+
+# Frontend specific
+# frontend/package-lock.json # Please keep this file versionned it's important for newcomers
+# TODO : Put this file to git again after npm version alignment
+frontend/package-lock.json
+
+
+
+# Backend specific
+frontend/node
+backend/bulk-import
+backend/~
+backend/Documents/upload-dir
+backend/src/main/java/com/adias/mytowereasy/dto/mapper/*MapperImpl.java
+application-dev-*.properties
+
+# Jasper fonts specific
+jasper-fonts/build/
+.sts4-cache/classpath-data.json
+
+# For test purpose only
+frontend/package-lock-back.json
+node_modules_back/
+
+# Office Temp files
+~$*.xlsx
+~$*.pptx
+~$*.docx
+~$*.xls
+~$*.ppt
+~$*.doc
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+# Only exists if Bazel was run
+/bazel-out
+
+# dependencies
+*/**/node_modules/
+/node-setup
+/.gradle/
+/build/
+/out/
+
+# profiling files
+chrome-profiler-events.json
+speed-measure-plugin.json
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+src/main/webapp/junitResults
+src/main/webapp/package-lock.json
+src/main/webapp/coverage/
+upload-dir/
+/freeTradeAnalytics.iws
+/freeTradeAnalytics.ipr

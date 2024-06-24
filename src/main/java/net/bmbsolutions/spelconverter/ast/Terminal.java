@@ -1,4 +1,4 @@
-package fr.mytower.spelconverter.ast;
+package net.bmbsolutions.spelconverter.ast;
 
 public abstract class Terminal implements AST {
     protected String property;

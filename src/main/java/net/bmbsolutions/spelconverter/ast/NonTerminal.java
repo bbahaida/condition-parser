@@ -1,6 +1,6 @@
-package fr.mytower.spelconverter.ast;
+package net.bmbsolutions.spelconverter.ast;
 
-import fr.mytower.spelconverter.ConverterTokenEnum;
+import net.bmbsolutions.spelconverter.ConverterTokenEnum;
 import lombok.Data;
 
 @Data

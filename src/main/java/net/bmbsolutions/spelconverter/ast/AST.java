@@ -1,4 +1,4 @@
-package fr.mytower.spelconverter.ast;
+package net.bmbsolutions.spelconverter.ast;
 
 public interface AST {
     Class<? extends AST> getType();

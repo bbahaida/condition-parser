@@ -1,4 +1,4 @@
-package fr.mytower.spelconverter;
+package net.bmbsolutions.spelconverter;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

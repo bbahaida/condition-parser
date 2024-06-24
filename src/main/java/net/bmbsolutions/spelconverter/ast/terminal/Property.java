@@ -1,7 +1,7 @@
-package fr.mytower.spelconverter.ast.terminal;
+package net.bmbsolutions.spelconverter.ast.terminal;
 
 
-import fr.mytower.spelconverter.ast.Terminal;
+import net.bmbsolutions.spelconverter.ast.Terminal;
 
 public class Property extends Terminal {
 

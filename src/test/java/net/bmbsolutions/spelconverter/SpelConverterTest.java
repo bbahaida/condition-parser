@@ -1,8 +1,8 @@
-package fr.mytower.spelconverter;
+package net.bmbsolutions.spelconverter;
 
 import org.junit.jupiter.api.Test;
 
-import static fr.mytower.spelconverter.ConverterTokenEnum.*;
+import static net.bmbsolutions.spelconverter.ConverterTokenEnum.*;
 import static org.assertj.core.api.Assertions.assertThat;
 
 

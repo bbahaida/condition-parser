@@ -1,14 +1,14 @@
-package fr.mytower.spelconverter;
+package net.bmbsolutions.spelconverter;
 
-import fr.mytower.spelconverter.ast.AST;
-import fr.mytower.spelconverter.ast.NonTerminal;
-import fr.mytower.spelconverter.ast.Terminal;
-import fr.mytower.spelconverter.ast.nonterminal.And;
-import fr.mytower.spelconverter.ast.nonterminal.Eq;
-import fr.mytower.spelconverter.ast.nonterminal.Not;
-import fr.mytower.spelconverter.ast.nonterminal.Or;
-import fr.mytower.spelconverter.ast.terminal.Property;
-import fr.mytower.spelconverter.ast.terminal.Value;
+import net.bmbsolutions.spelconverter.ast.AST;
+import net.bmbsolutions.spelconverter.ast.NonTerminal;
+import net.bmbsolutions.spelconverter.ast.Terminal;
+import net.bmbsolutions.spelconverter.ast.nonterminal.And;
+import net.bmbsolutions.spelconverter.ast.nonterminal.Eq;
+import net.bmbsolutions.spelconverter.ast.nonterminal.Not;
+import net.bmbsolutions.spelconverter.ast.nonterminal.Or;
+import net.bmbsolutions.spelconverter.ast.terminal.Property;
+import net.bmbsolutions.spelconverter.ast.terminal.Value;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
